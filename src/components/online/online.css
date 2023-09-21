@@ -1,0 +1,18 @@
+.onlineList {
+  position: relative;
+}
+.onlineListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.onlineDoc {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(76, 226, 76);
+  position: absolute;
+  border-color: white;
+  top: -1px;
+  left: 20px;
+}

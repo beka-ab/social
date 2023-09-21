@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.feed {
+  padding-top: 10px;
+  padding-bottom: 25px;
+  box-shadow: -2px 1px 14px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 1px 14px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 1px 14px -5px rgba(0, 0, 0, 0.75);
+  flex: 5.5;
+  border-radius: 5px;
+  height: 150px;
+  margin-top: 10px;
+}
+.postMind {
+  border: none;
+  padding: 10px 5px;
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+}
+.postLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+hr {
+  height: 2px;
+  width: 86%;
+}
+.postContainer {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+.inputPost {
+  border: none;
+  margin-left: 5px;
+}
+.inputPost:focus {
+  outline: none;
+}
+.aditionalPostAction {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 0px 25px;
+}
+.postAction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

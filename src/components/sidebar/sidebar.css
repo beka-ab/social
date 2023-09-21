@@ -1,0 +1,41 @@
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+.sidebar {
+  flex: 3;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  padding-left: 15px;
+  padding-top: 15px;
+  position: sticky;
+  top: 50px;
+}
+
+.featureList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.onlineFriendImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.showMoreBtn {
+  margin: 30px 0px;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+.contactIsolator {
+  height: 2px;
+  margin-bottom: 15px;
+}
+.friends {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}

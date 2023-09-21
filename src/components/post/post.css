@@ -1,0 +1,64 @@
+.postWrapper {
+  margin-top: 25px;
+  box-shadow: -2px 1px 14px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 1px 14px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 1px 14px -5px rgba(0, 0, 0, 0.75);
+  flex: 5.5;
+  width: 500px;
+  padding: 10px;
+}
+.postAuthor {
+  display: flex;
+  align-items: center;
+}
+.postAuthorWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info {
+  width: 4px;
+  height: 4px;
+  background-color: black;
+}
+.infoDocs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+}
+.userAuthor {
+  height: 32px;
+  width: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.postContent {
+  margin: 10px 0px;
+}
+.userName {
+  margin-left: 5px;
+}
+.userActivity {
+  margin-left: 5px;
+}
+
+.postMedia {
+  width: 100%;
+  object-fit: contain;
+}
+.postLikeCounter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.postReactions {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+.reaction {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}

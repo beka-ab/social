@@ -1,0 +1,4 @@
+.mianContent {
+  display: flex;
+  flex-direction: row;
+}

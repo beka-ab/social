@@ -1,0 +1,48 @@
+.rightbar {
+  flex: 3;
+}
+.birthdayimg {
+  height: 30px;
+  width: 30px;
+}
+.rightbarWrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.advertisment {
+  margin: 20px 10px 20px 0px;
+  border-radius: 5px;
+  width: 25vw;
+}
+.adimg {
+  border-radius: 10px;
+  object-fit: contain;
+  max-width: 100%;
+}
+.onlineListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.onlineList {
+  position: relative;
+}
+.onlineDoc {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(76, 226, 76);
+  position: absolute;
+  border-color: white;
+  top: -1px;
+  left: 20px;
+}
+.onlineLists {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.onlineHeadline {
+  margin: 10px 0px;
+}
